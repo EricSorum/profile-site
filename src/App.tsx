@@ -1,4 +1,3 @@
-import './App.css'
 import FrontPage from './pages/FrontPage'
 
 function App() {
