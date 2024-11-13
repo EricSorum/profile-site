@@ -554,16 +554,67 @@ video {
   display: none;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.top-\[30vh\] {
+  top: 30vh;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.block {
+  display: block;
+}
+
 .w-full {
   width: 100%;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
+@keyframes fadein1 {
+  0% {
+    transform: translateY(-30px);
+    opacity: .5;
+    letter-spacing: 1rem;
+  }
+
+  100% {
+    transform: translateY(0);
+    letter-spacing: normal;
+  }
+}
+
+.animate-fadein1 {
+  animation: fadein1 5s ease-in-out;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-9xl {
+  font-size: 8rem;
+  line-height: 1;
 }
 
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.shadow-slate-200 {
+  --tw-shadow-color: #e2e8f0;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+animate-fadein1 animate-dropin1 {
+  will-change: transform, opacity;
 }
