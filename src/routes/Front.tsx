@@ -1,8 +1,5 @@
-// import { Outlet } from 'react-router-dom';
 import MainVideo from "../components/MainVideo";
 import MainTitle from "../components/MainTitle";
-// import MenuUL from "../components/menus/MenuUL";
-// import MenuUR from "../components/menus/MenuUR";
 import LowerLeftText from "../components/LowerLeftText";
 import Feature from "../components/Feature";
 import { features } from "../lib/content";
@@ -15,10 +12,6 @@ export default function Root() {
         <MainVideo />
         <MainTitle />
         <LowerLeftText />
-
-        {/* <MenuUL />
-        <MenuUR />
-        <LowerLeftText /> */}
       </div>
       <div className="max-w-[1800px] mx-auto my-20">
         {features.map((feature) => {
@@ -27,7 +20,6 @@ export default function Root() {
           )
         })}
       </div>
-      {/* <Outlet /> */}
     </>
   )
 }

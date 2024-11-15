@@ -5,20 +5,20 @@ import { MenuLinkType } from "../../lib/definitions"
 const upperLeftLinks: MenuLinkType[] = [
   {
     id: 1,
-    txt: 'Service1',
-    url: '/work',
+    txt: 'Projects',
+    url: '/projects',
     right: false,
   },
   {
     id: 2,
-    txt: 'Service2',
-    url: 'javascript:void(0)',
+    txt: 'Pricing',
+    url: '/pricing',
     right: false
   },
   {
     id: 3,
-    txt: 'Service3',
-    url: 'javascript:void(0)',
+    txt: 'Booking',
+    url: '/pricing',
     right: false
   }
 ]
