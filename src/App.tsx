@@ -1,11 +1,11 @@
-import FrontPage from './pages/FrontPage'
-import './output.css'
+// import FrontPage from './routes/Root'
+
 
 function App() {
 
   return (
     <>
-      <FrontPage />
+      {/* <FrontPage /> */}
     </>
   )
 }

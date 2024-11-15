@@ -6,7 +6,7 @@ const upperLeftLinks: MenuLinkType[] = [
   {
     id: 1,
     txt: 'Service1',
-    url: 'javascript:void(0)',
+    url: '/work',
     right: false,
   },
   {
@@ -30,7 +30,7 @@ export default function MenuUL() {
       onMouseEnter={()=> toggleMenu(true)}
       onMouseLeave={()=> toggleMenu(false)}
       onClick={()=> toggleMenu(!menuOpen)}
-      className="absolute top-[10px] left-[10px] text-white shadow-slate-200 text-3xl"
+      className="absolute top-[10px] left-[10px] text-white shadow-slate-200 text-3xl z-10"
     >
         <button className="opacity-70 hover:opacity-100">Work</button>
         { menuOpen && (
