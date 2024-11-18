@@ -1,27 +1,8 @@
 import { useState } from "react"
 import MenuLink from "./MenuLink"
 import { MenuLinkType } from "../../lib/definitions"
+import { upperRightLinks } from "../../lib/links";
 
-const upperRightLinks: MenuLinkType[] = [
-  {
-    id: 1,
-    txt: 'Person1',
-    url: 'javascript:void(0)',
-    right: true
-  },
-  {
-    id: 2,
-    txt: 'Person2',
-    url: 'javascript:void(0)',
-    right: true
-  },
-  {
-    id: 3,
-    txt: 'Person3',
-    url: 'javascript:void(0)',
-    right: true
-  }
-]
 
 export default function MenuUR() {
   const [ menuOpen, toggleMenu ] = useState(false);

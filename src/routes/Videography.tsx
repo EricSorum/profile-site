@@ -1,9 +1,9 @@
 import { pages } from '../lib/content'
 import Page from '../components/Page';
 
-const thisPage = pages[1];
+const thisPage = pages[4];
 
-export default function Pricing() {
+export default function Videography() {
   return (
     <div>
       <Page {...thisPage} />

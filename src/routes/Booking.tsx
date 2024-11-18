@@ -1,10 +1,12 @@
-import coastline from '../assets/coast.jpeg'
+import { pages } from '../lib/content'
+import Page from '../components/Page';
+
+const thisPage = pages[2];
 
 export default function Booking() {
   return (
     <div>
-      <h1>Booking</h1>
-      <img src={coastline}></img>
+      <Page {...thisPage} />
     </div>
   )
 }

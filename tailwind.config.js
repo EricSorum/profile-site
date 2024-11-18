@@ -20,15 +20,10 @@ export default {
       keyframes: {
         fadein1: {
           '0%': { 
-            transform: 'scale(1.3)', 
             opacity: '.5',
-            transform: 'translateY(-30px)',
-            letterSpacing: '1rem'
+           letterSpacing: '.5rem'
           },
           '100%': { 
-            transform: 'scale(1)', 
-            transform: 'translateY(0)',
-            letterSpacing: 'normal'
           }
         },
      },

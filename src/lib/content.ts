@@ -34,7 +34,7 @@ export const features: FeatureType[] = [
   {
     id: 5,
     title: 'Sunset',
-    img: sunset,
+    img: coast,
     txt: 'Donec ligula posuere malesuada sem ullamcorper nam. Ligula magnis tristique taciti suscipit mattis scelerisque habitant at.',
   },
 ]
@@ -67,6 +67,12 @@ export const pages: PageType[] = [
   },
   {
     id: 5,
+    title: 'Sunset',
+    img: sunset,
+    txt: 'Semper at nascetur leo platea sagittis ridiculus vestibulum ipsum iaculis. Lorem pretium morbi vulputate felis auctor facilisis, habitant dignissim primis. Torquent tortor conubia himenaeos quisque ullamcorper mattis. Urna odio risus efficitur sem cubilia. Pretium eget euismod velit eget efficitur penatibus quis eleifend. Iaculis et felis ultrices morbi erat quam dapibus.',
+  },
+  {
+    id: 6,
     title: 'Sunset',
     img: sunset,
     txt: 'Semper at nascetur leo platea sagittis ridiculus vestibulum ipsum iaculis. Lorem pretium morbi vulputate felis auctor facilisis, habitant dignissim primis. Torquent tortor conubia himenaeos quisque ullamcorper mattis. Urna odio risus efficitur sem cubilia. Pretium eget euismod velit eget efficitur penatibus quis eleifend. Iaculis et felis ultrices morbi erat quam dapibus.',

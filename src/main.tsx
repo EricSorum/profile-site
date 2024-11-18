@@ -9,6 +9,9 @@ import Root from "./routes/Root.tsx";
 import Projects from './routes/Projects.tsx';
 import Pricing from './routes/Pricing.tsx';
 import Booking from './routes/Booking.tsx';
+import Photography from './routes/Photography.tsx';
+import Videography from './routes/Videography.tsx';
+import Editing from './routes/Editing.tsx';
 import Front from './routes/Front.tsx'
 
 // THE OUTLET COMPONENT RENDERS ALL PAGES LISTEN IN ROUTER
@@ -36,6 +39,18 @@ const router = createBrowserRouter([
         path: "/pricing",
         element: <Pricing />,
       },
+      {
+        path: "/photography",
+        element: <Photography />,
+      },
+      {
+        path: "/videography",
+        element: <Videography />,
+      },
+      {
+        path: "/editing",
+        element: <Editing />,
+      }
   ]
 },
 
