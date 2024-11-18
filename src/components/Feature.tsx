@@ -4,7 +4,7 @@ import { FeatureType } from "../lib/definitions";
 export default function Feature(props: FeatureType) {
   const [ active, isActive ] = useState(false)
   const activeClasses = active ? [
-    'bg-stone-200'
+    'bg-stone-500/[0.5]'
   ] : '';
   const alignment = props.id % 2;
   const alignmentClass = alignment ? 'flex-row-reverse' : '';
