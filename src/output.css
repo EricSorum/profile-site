@@ -711,6 +711,10 @@ video {
   background-color: rgb(120 113 108 / 0.5);
 }
 
+.bg-stone-500\/\[0\.2\] {
+  background-color: rgb(120 113 108 / 0.2);
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
