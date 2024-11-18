@@ -1,11 +1,9 @@
-import coastline from '../assets/coast.jpeg'
 import { PageType } from '../lib/definitions'
 
 export default function Header({ title }: PageType) {
   return (
-    <div className="">
-      <h1 className="text-2xl">{title}</h1>
-      <img src={coastline} className="h-28 w-full object-cover -z-10"></img>
+    <div className="flex flex-col items-start justify-end h-32 max-w-screen-lg w-full">
+     <h1 className="text-4xl text-white">{title}</h1>
     </div>
   )
 }

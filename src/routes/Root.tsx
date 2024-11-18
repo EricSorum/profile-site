@@ -1,6 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import MenuUL from "../components/menus/MenuUL";
 import MenuUR from "../components/menus/MenuUR";
+import HomeLink from '../components/menus/HomeLink';
 import '../output.css'
 
 export default function Root() {
@@ -8,6 +9,7 @@ export default function Root() {
     <>
       <MenuUL />
       <MenuUR />
+      <HomeLink />
       <Outlet />
     </>
   )
