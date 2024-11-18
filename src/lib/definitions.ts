@@ -11,3 +11,10 @@ export type FeatureType = {
   txt: string,
   img: string,
 }
+
+export type PageType = {
+  id?: number,
+  title?: string,
+  txt?: string,
+  img?: string,
+}
