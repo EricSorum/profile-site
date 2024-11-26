@@ -6,7 +6,6 @@
   will-change: transform, opacity;
 }
 
-body {
+html, body {
   height: 100%;
-  
 }

@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "vite",
     "start": "serve -s dist",
-    "build": "tsc -b && vite build && cp dist/index.html dist/404.html",
+    "build:css": "tailwindcss -i ./src/input.css -o ./src/output.css --minify",
+    "build": "tsc -b && vite build && pnpm run build:css && cp dist/index.html dist/404.html",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "pnpm run build",
