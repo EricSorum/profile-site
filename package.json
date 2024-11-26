@@ -6,6 +6,7 @@
   "homepage": "http://ericsorum.github.io/profile-site",
   "scripts": {
     "dev": "vite",
+    "start": "vite preview",
     "build": "tsc -b && vite build && cp dist/index.html dist/404.html",
     "lint": "eslint .",
     "preview": "vite preview",
