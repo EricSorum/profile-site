@@ -1,8 +1,6 @@
-import { useState } from "react";
 import { FeatureType } from "../lib/definitions";
 
 export default function Feature(props: FeatureType) {
-  const [ active, isActive ] = useState(false)
   const alignment = props.id % 2;
   const alignmentClass = alignment ? 'flex-row-reverse' : '';
   return (
@@ -21,7 +19,7 @@ export default function Feature(props: FeatureType) {
                 className={`
                   transition-transform ease-in-out duration-300 
                   hover:scale-90
-                 object-cover
+                  object-cover
                 `}
               />
             </div>

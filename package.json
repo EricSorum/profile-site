@@ -14,6 +14,9 @@
     "predeploy": "pnpm run build",
     "deploy": "gh-pages -d dist"
   },
+  "engines": {
+    "node": ">=19.00 <21.00"
+  },
   "dependencies": {
     "gh-pages": "^6.2.0",
     "react": "^18.3.1",
