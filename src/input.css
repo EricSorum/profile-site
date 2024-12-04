@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-shadow {
+  text-shadow: -1px -1px 0 rgba(87,83,78,0.5), 1px -1px 0 rgba(87,83,78,0.3), -1px 1px 0 rgba(87,83,78,0.3), 1px 1px 0 rgba(87,83,78,0.3);
+}
+
+.text-shadow-hover:hover {
+  text-shadow: none;
+}

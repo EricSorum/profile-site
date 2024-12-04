@@ -18,7 +18,7 @@ export default function MenuUL() {
       onClick={()=> handleMenu()}
       className="absolute top-[10px] right-[10px]  text-right shadow-slate-200 text-3xl z-20"
     >
-        <button className="opacity-70 hover:opacity-100">Talent</button>
+        <button className="opacity-70 hover:opacity-100 text-shadow text-shadow-hover">Talent</button>
         { menuOpen && (
           <ul>
             {upperRightLinks.map((link: MenuLinkType) =>

@@ -21,7 +21,7 @@ export default {
         fadein1: {
           '0%': { 
             opacity: '.5',
-           letterSpacing: '.5rem'
+           letterSpacing: '.1rem'
           },
           '100%': { 
           }
