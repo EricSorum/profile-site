@@ -16,7 +16,7 @@ export default function MenuUL() {
       onMouseEnter={()=> handleMenu()}
       onMouseLeave={()=> handleMenu()}
       onClick={()=> handleMenu()}
-      className="absolute top-[10px] right-[10px] text-white text-right shadow-slate-200 text-3xl z-20"
+      className="absolute top-[10px] right-[10px]  text-right shadow-slate-200 text-3xl z-20"
     >
         <button className="opacity-70 hover:opacity-100">Talent</button>
         { menuOpen && (

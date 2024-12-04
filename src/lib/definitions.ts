@@ -10,6 +10,7 @@ export type FeatureType = {
   title: string,
   txt: string,
   img: string,
+  alt: string
 }
 
 export type PageType = {
@@ -17,6 +18,7 @@ export type PageType = {
   title?: string,
   txt?: string,
   img?: string,
+  alt?: string
 }
 
 export type CardType = {
