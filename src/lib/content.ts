@@ -1,5 +1,4 @@
-import { FeatureType } from "./definitions"
-import { PageType } from "./definitions"
+import { FeatureType, PageType, CardType } from "./definitions"
 import coast from '../assets/coast.jpeg'
 import driftwood from '../assets/driftwood.jpg'
 import rocks from '../assets/rocks.jpg'
@@ -44,8 +43,7 @@ export const pages: PageType[] = [
     id: 1,
     title: 'Projects',
     img: sunset,
-    txt: 
-    'Lorem ipsum odor amet, consectetuer adipiscing elit. Quis ridiculus auctor aliquet a cras turpis rhoncus orci augue. Curae vehicula nunc ullamcorper fusce sollicitudin curae. Laoreet felis etiam curabitur fermentum cursus vulputate aliquam dis. Blandit netus mattis proin netus eros. Ligula tortor tempor neque mauris suspendisse vel id enim. Luctus scelerisque posuere non sed arcu, aptent vitae. Erat semper lacus egestas turpis, volutpat dolor velit.',
+    txt: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Quis ridiculus auctor aliquet a cras turpis rhoncus orci augue. Curae vehicula nunc ullamcorper fusce sollicitudin curae. Laoreet felis etiam curabitur fermentum cursus vulputate aliquam dis. Blandit netus mattis proin netus eros. Ligula tortor tempor neque mauris suspendisse vel id enim. Luctus scelerisque posuere non sed arcu, aptent vitae. Erat semper lacus egestas turpis, volutpat dolor velit.',
   },
   {
     id: 2,
@@ -77,4 +75,37 @@ export const pages: PageType[] = [
     img: sunset,
     txt: 'Semper at nascetur leo platea sagittis ridiculus vestibulum ipsum iaculis. Lorem pretium morbi vulputate felis auctor facilisis, habitant dignissim primis. Torquent tortor conubia himenaeos quisque ullamcorper mattis. Urna odio risus efficitur sem cubilia. Pretium eget euismod velit eget efficitur penatibus quis eleifend. Iaculis et felis ultrices morbi erat quam dapibus.',
   },
+]
+
+export const cards: CardType[] = [
+  {
+    id: 1,
+    title: 'Card Title',
+    txt: 'Semper at nascetur leo platea sagittis ridiculus vestibulum ipsum iaculis.'
+  },
+  {
+    id: 2,
+    title: 'Card Title',
+    txt: 'Semper at nascetur leo platea sagittis ridiculus vestibulum ipsum iaculis.'
+  },
+  {
+    id: 3,
+    title: 'Card Title',
+    txt: 'Pulvinar sagittis curae maximus est posuere tortor libero varius.'
+  },
+  {
+    id: 4,
+    title: 'Card Title',
+    txt: 'Pharetra congue tempus tempus lobortis, nostra in habitasse.'
+  },
+  {
+    id: 5,
+    title: 'Card Title',
+    txt: 'Lorem ex nibh neque cubilia ut platea litora congue.'
+  },
+  {
+    id: 6,
+    title: 'Card Title',
+    txt: 'Lorem ipsum odor amet, consectetuer adipiscing elit.'
+  }
 ]

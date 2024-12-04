@@ -18,3 +18,9 @@ export type PageType = {
   txt?: string,
   img?: string,
 }
+
+export type CardType = {
+  id: number,
+  title: string,
+  txt: string
+}
