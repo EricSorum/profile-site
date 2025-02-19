@@ -4,9 +4,7 @@ export default function Feature(props: FeatureType) {
   const alignment = props.id % 2;
   const alignmentClass = alignment ? 'flex-row-reverse' : '';
   return (
-    <div
-    className=""
-    >
+    <div>
         <div 
           className={`
             ${alignmentClass}
@@ -26,7 +24,41 @@ export default function Feature(props: FeatureType) {
           </div>
           <div className="lg:w-1/2">
             <h3 className="text-xl">{props.title}</h3>
+            <div className="">
+            <button className="
+            m-2 p-1 
+            outline inline-block outline-slate-100 rounded-lg 
+            hover:bg-stone-200/[0.1] hover:shadow-xl
+            opacity-70 
+            hover:opacity-100 
+            transition ease-in-out
+            text-lg
+            ">Option</button>
+
+<button className="
+            m-2 p-1 
+            outline inline-block outline-slate-100 rounded-lg 
+            hover:bg-stone-200/[0.1] hover:shadow-xl
+            opacity-70 
+            hover:opacity-100 
+            transition ease-in-out
+            text-lg
+            ">Option</button>
+                        <button className="
+            m-2 p-1 
+            outline outline-slate-100 rounded-lg 
+            hover:bg-stone-200/[0.1] hover:shadow-xl
+            opacity-70 
+            hover:opacity-100 
+            transition ease-in-out
+            text-lg
+            ">Option</button>
+              
+            </div>
             <p>{props.txt}</p>
+          </div>
+          <div className="md:flex items-center gap-5">
+            <div></div>
           </div>
         </div>
     </div>
