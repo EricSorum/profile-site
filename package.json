@@ -15,7 +15,7 @@
     "deploy": "gh-pages -d dist"
   },
   "engines": {
-    "node": ">=20.16.0",
+    "node": "22.x",
     "pnpm": "9.8.0"
   },
   "dependencies": {
