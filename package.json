@@ -8,7 +8,7 @@
     "dev": "vite & pnpm run watch:css",
     "start": "serve -s dist",
     "watch:css": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
-    "build": "tsc -b && vite build && pnpm build:css && cp dist/index.html dist/404.html",
+    "build": "tsc -b && vite build && cp dist/index.html dist/404.html",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "pnpm run build",
