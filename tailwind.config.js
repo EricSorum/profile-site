@@ -27,11 +27,11 @@ export default {
           }
         },
         backdrop: {
-          // '0': {
-          //   top: '-100%'
-          // },
+          '0': {
+            transform: 'translateY(-100%)'
+          },
           '100%': {
-            top: '0%'
+            transform: 'translateY(0%)'
           }
         }
      },

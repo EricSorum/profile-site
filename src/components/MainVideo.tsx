@@ -6,7 +6,6 @@ export default function MainVideo() {
     <div className="min-h-[100vh]">
       <video src={video} autoPlay muted loop className="absolute top-0 left-0 w-full h-full object-cover">
       </video>
-      {/* <img src={coast} className="absolute top-0 left-0 w-full h-full object-cover"></img> */}
     </div>
   )
 }

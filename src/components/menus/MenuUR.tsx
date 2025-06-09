@@ -4,7 +4,6 @@ import { MenuLinkType } from "../../lib/definitions"
 import { upperRightLinks } from "../../lib/links";
 import menuBackdrop from "../../utils/menu-backdrop";
 
-
 export default function MenuUL() {
   const [ menuOpen, toggleMenu ] = useState(false);
   const handleMenu = () => {

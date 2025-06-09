@@ -55,7 +55,6 @@ export default function Feature(props: FeatureType) {
             <p>{props.txt}</p>
           </div>
           <div className="lg:w-1/3">
-         
           </div>
           <div className="md:flex items-center gap-5">
             <div></div>

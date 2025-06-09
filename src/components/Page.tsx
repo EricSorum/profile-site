@@ -12,16 +12,16 @@ export default function Page(props: PageType) {
       <div className="max-w-screen-lg grid md:grid-cols-[2fr_1fr] gap-6">
           <img src={img} className=""></img>
           <div>
-            <p className="">{txt}</p>
+            <p>{txt}</p>
             <button className="
-            mx-auto block  m-6 p-3 
-            outline outline-slate-100 rounded-lg 
-            hover:bg-stone-200/[0.1] hover:shadow-xl
-            opacity-70 
-            hover:opacity-100 
-            transition ease-in-out
-            text-xl
-            w-full
+              mx-auto block m-6 p-3 
+              outline outline-slate-100 rounded-lg 
+              hover:bg-stone-200/[0.1] hover:shadow-xl
+              opacity-70
+              hover:opacity-100
+              transition ease-in-out
+              text-xl
+              w-full
             ">Call to Action</button>
           </div>
       </div>
