@@ -21,14 +21,23 @@ export default {
         fadein1: {
           '0%': { 
             opacity: '.5',
-           letterSpacing: '.1rem'
+            letterSpacing: '.1rem'
           },
           '100%': { 
           }
         },
+        backdrop: {
+          // '0': {
+          //   top: '-100%'
+          // },
+          '100%': {
+            top: '0%'
+          }
+        }
      },
       animation: {
-        'fadein1': 'fadein1 5s ease-in-out', 
+        'fadein1': 'fadein1 5s ease-in-out',
+        'backdrop': 'backdrop 1s linear'
       }
     },
   },
