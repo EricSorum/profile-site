@@ -20,6 +20,7 @@ export default function Feature(props: FeatureType) {
                   object-cover
                   mb-4
                 `}
+                alt={props.alt}
               />
             </div>
             <h3 className="text-xl">{props.title}</h3>

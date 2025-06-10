@@ -10,7 +10,7 @@ export default function Page(props: PageType) {
     <div className="flex flex-col items-center gap-6 mx-4 ">
       <Header title={title} />
       <div className="max-w-screen-lg grid md:grid-cols-[2fr_1fr] gap-6">
-          <img src={img} className=""></img>
+          <img src={img} alt={props.alt}></img>
           <div>
             <p>{txt}</p>
             <button className="

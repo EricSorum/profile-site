@@ -562,10 +562,6 @@ video {
   position: relative;
 }
 
-.sticky {
-  position: sticky;
-}
-
 .bottom-\[10px\] {
   bottom: 10px;
 }
