@@ -9,7 +9,7 @@ export default function MenuLink(props: MenuLinkType) {
       transition ease-in-out
       ${translateClass}
      `}>
-      <a href={props.url}>{props.txt}</a>
+      <a href={props.url} title={props.txt}>{props.txt}</a>
     </li>
   )
 }

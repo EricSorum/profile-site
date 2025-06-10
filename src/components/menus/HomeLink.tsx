@@ -8,7 +8,7 @@ export default function HomeLink() {
       w-full flex justify-center 
       shadow-slate-200 text-3xl z-9
     ">
-      <a href="/"><img src={shutter} ></img></a>
+      <a href="/" title="Home"><img src={shutter} ></img></a>
     </div>
   )
 }
