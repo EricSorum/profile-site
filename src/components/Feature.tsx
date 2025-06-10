@@ -24,7 +24,7 @@ export default function Feature(props: FeatureType) {
               />
             </div>
             <h3 className="text-xl">{props.title}</h3>
-            <div className="">
+            <div>
               <button className="
                 m-2 p-1 
                 outline inline-block outline-slate-100 rounded-lg 

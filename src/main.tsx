@@ -14,7 +14,7 @@ import Videography from './routes/Videography.tsx';
 import Editing from './routes/Editing.tsx';
 import Front from './routes/Front.tsx'
 
-// THE OUTLET COMPONENT RENDERS ALL PAGES LISTEN IN ROUTER
+// THE OUTLET COMPONENT RENDERS ALL PAGES LISTED IN ROUTER
 // THE OTHER ELEMENTS IN ROOT.TSX ARE MENU COMPONENTS THAT APPEAR ON EVERY PAGE
 
 const router = createBrowserRouter([
