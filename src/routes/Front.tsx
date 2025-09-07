@@ -8,18 +8,18 @@ import '../output.css'
 export default function Root() {
   return (
     <div className="bg-stone-600">
-      <div>
+      <section aria-label="Hero section">
         <MainVideo />
         <MainTitle />
         <LowerLeftText />
-      </div>
-      <div className="max-w-[1800px] mx-auto my-20">
+      </section>
+      <section className="max-w-[1800px] mx-auto my-20" aria-label="Features">
         {features.map((feature) => {
           return (
             <Feature key={feature.id} {...feature} />
           )
         })}
-      </div>
+      </section>
     </div>
   )
 }
