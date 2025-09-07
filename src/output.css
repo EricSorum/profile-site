@@ -107,7 +107,7 @@
 }
 
 /*
-! tailwindcss v3.4.14 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -753,7 +753,7 @@ video {
 
 .bg-stone-400 {
   --tw-bg-opacity: 1;
-  background-color: rgb(168 162 158 / var(--tw-bg-opacity));
+  background-color: rgb(168 162 158 / var(--tw-bg-opacity, 1));
 }
 
 .bg-stone-400\/90 {
@@ -762,7 +762,15 @@ video {
 
 .bg-stone-600 {
   --tw-bg-opacity: 1;
-  background-color: rgb(87 83 78 / var(--tw-bg-opacity));
+  background-color: rgb(87 83 78 / var(--tw-bg-opacity, 1));
+}
+
+.bg-stone-800\/90 {
+  background-color: rgb(41 37 36 / 0.9);
+}
+
+.bg-stone-600\/90 {
+  background-color: rgb(87 83 78 / 0.9);
 }
 
 .object-cover {
@@ -817,7 +825,7 @@ video {
 
 .text-white {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .opacity-70 {

@@ -8,7 +8,7 @@ import '../output.css'
 
 export default function Root() {
   return (
-    <div className="bg-stone-400 text-white">
+    <div className="bg-stone-600 text-white">
       <MenuUL />
       <MenuUR />
       <Backdrop />

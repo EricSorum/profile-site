@@ -7,7 +7,7 @@ import '../output.css'
 
 export default function Root() {
   return (
-    <div className="bg-stone-400">
+    <div className="bg-stone-600">
       <div>
         <MainVideo />
         <MainTitle />
