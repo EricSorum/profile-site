@@ -25,33 +25,51 @@ export default function Feature(props: FeatureType) {
             </div>
             <h3 className="text-xl">{props.title}</h3>
             <div>
-              <button className="
-                m-2 p-1 
-                outline inline-block outline-slate-100 rounded-lg 
-                hover:bg-stone-200/[0.1] hover:shadow-xl
-                opacity-70 
-                hover:opacity-100 
-                transition ease-in-out
-                text-lg
-              ">Option</button>
-              <button className="
-                m-2 p-1 
-                outline inline-block outline-slate-100 rounded-lg 
-                hover:bg-stone-200/[0.1] hover:shadow-xl
-                opacity-70 
-                hover:opacity-100 
-                transition ease-in-out
-                text-lg
-              ">Option</button>
-              <button className="
-                m-2 p-1 
-                outline outline-slate-100 rounded-lg 
-                hover:bg-stone-200/[0.1] hover:shadow-xl
-                opacity-70 
-                hover:opacity-100 
-                transition ease-in-out
-                text-lg 
-              ">Option</button> 
+              <button 
+                className="
+                  m-2 p-1 
+                  outline inline-block outline-slate-100 rounded-lg 
+                  hover:bg-stone-200/[0.1] hover:shadow-xl
+                  opacity-70 
+                  hover:opacity-100 
+                  transition ease-in-out
+                  text-lg
+                  focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50
+                "
+                aria-label="View project details"
+              >
+                View Details
+              </button>
+              <button 
+                className="
+                  m-2 p-1 
+                  outline inline-block outline-slate-100 rounded-lg 
+                  hover:bg-stone-200/[0.1] hover:shadow-xl
+                  opacity-70 
+                  hover:opacity-100 
+                  transition ease-in-out
+                  text-lg
+                  focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50
+                "
+                aria-label="Contact about this project"
+              >
+                Contact
+              </button>
+              <button 
+                className="
+                  m-2 p-1 
+                  outline outline-slate-100 rounded-lg 
+                  hover:bg-stone-200/[0.1] hover:shadow-xl
+                  opacity-70 
+                  hover:opacity-100 
+                  transition ease-in-out
+                  text-lg
+                  focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50
+                "
+                aria-label="Learn more about this project"
+              >
+                Learn More
+              </button> 
             </div>
             <p>{props.txt}</p>
           </div>

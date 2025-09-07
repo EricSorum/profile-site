@@ -11,20 +11,29 @@ export default function MenuUL() {
     menuBackdrop();
   }
   return (
-    <div 
+    <nav 
       onMouseEnter={()=> handleMenu()}
       onMouseLeave={()=> handleMenu()}
       onClick={()=> handleMenu()}
       className="absolute top-[10px] left-[10px] text-3xl z-20"
+      role="navigation"
+      aria-label="Work menu"
     >
-        <button className="opacity-70 hover:opacity-100 text-shadow text-shadow-hover">Work</button>
+        <button 
+          className="text-shadow focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50 rounded"
+          aria-expanded={menuOpen}
+          aria-haspopup="true"
+          aria-controls="work-menu"
+        >
+          Work
+        </button>
         { menuOpen && (
-          <ul>
+          <ul id="work-menu" role="menu" aria-label="Work menu">
             {upperLeftLinks.map((link: MenuLinkType) =>
               <MenuLink key={link.id} {...link}/>
           )}
           </ul>
         )}
-   </div>
+   </nav>
   )
 }

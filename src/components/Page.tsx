@@ -13,16 +13,22 @@ export default function Page(props: PageType) {
           <img src={img} alt={props.alt}></img>
           <div>
             <p>{txt}</p>
-            <button className="
-              mx-auto block m-6 p-3 
-              outline outline-slate-100 rounded-lg 
-              hover:bg-stone-200/[0.1] hover:shadow-xl
-              opacity-70
-              hover:opacity-100
-              transition ease-in-out
-              text-xl
-              w-full
-            ">Call to Action</button>
+            <button 
+              className="
+                mx-auto block m-6 p-3 
+                outline outline-slate-100 rounded-lg 
+                hover:bg-stone-200/[0.1] hover:shadow-xl
+                opacity-70
+                hover:opacity-100
+                transition ease-in-out
+                text-xl
+                w-full
+                focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50
+              "
+              aria-label="Get started with our services"
+            >
+              Get Started
+            </button>
           </div>
       </div>
       <div className="grid md:grid-cols-2 max-w-screen-lg">
