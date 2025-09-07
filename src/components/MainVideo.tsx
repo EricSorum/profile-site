@@ -10,10 +10,8 @@ export default function MainVideo() {
         muted 
         loop 
         className="absolute top-0 left-0 w-full h-full object-cover"
-        aria-label="Background video showing water movement"
-        role="img"
+        aria-hidden="true"
       >
-        <track kind="captions" srcLang="en" label="English captions" />
       </video>
     </div>
   )
